@@ -1,0 +1,254 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: Helvetica, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+a {
+  color: #333;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+nav {
+  min-height: 50px;
+  background-color: rgb(236, 233, 228);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+nav .site-logo h1,
+nav .site-logo h2,
+nav .site-logo h3 {
+  margin-bottom: 0;
+}
+nav .search-Bar {
+  margin: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  position: relative;
+}
+nav .search-Bar img {
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  left: 15px;
+}
+nav .search-Bar input {
+  max-width: 600px;
+  width: 37.5vw;
+  height: 40px;
+  color: #333;
+  font-size: 0.875rem;
+  padding: 6px 12px 6px 45px;
+  border: 1px solid rgb(210, 210, 210);
+  border-radius: 25px;
+  outline: none;
+}
+nav .nav-Icons i {
+  padding: 10px;
+  font-size: 32px;
+}
+nav i:hover,
+nav li:hover {
+  background-color: #fff;
+  border-radius: 1.5625rem;
+  transition: 0.5s;
+  cursor: pointer;
+}
+nav ul {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 15px;
+}
+nav ul li {
+  padding: 10px 14.5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+nav a {
+  text-decoration: none;
+  font-size: 14.5px;
+  color: #333;
+}
+nav a:hover {
+  color: rgb(148, 114, 89);
+}
+nav .deals-Link {
+  color: #c8102e;
+}
+nav .deals-Link:hover {
+  color: #c8102e;
+}
+nav .deals-Link img {
+  height: 13px;
+}
+nav .outlet-icon a {
+  text-transform: uppercase;
+}
+nav .outlet-icon img {
+  width: 12px;
+  height: 12px;
+}
+
+footer a,
+footer p {
+  margin-bottom: 0;
+  font-size: 14px;
+}
+
+.contact-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 50px;
+  background-color: #3b2b2f;
+  color: #fff;
+}
+.contact-section a,
+.contact-section p {
+  color: #fff;
+}
+
+.find-store {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.find-store i {
+  margin-right: 11px;
+}
+
+.social-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.social-links p {
+  margin-right: 15px;
+}
+.social-links i {
+  margin-right: 10px;
+}
+
+.footer-links {
+  margin-top: 10px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+
+.link-column {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  flex-direction: column;
+  max-width: 25%;
+  padding: 0 15px;
+}
+
+.small-link-holder {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+.small-link-holder p {
+  font-size: 14px;
+  margin-bottom: 21px;
+}
+.small-link-holder a {
+  margin-bottom: 12px;
+}
+.small-link-holder a:hover {
+  color: rgb(148, 114, 89);
+  border-bottom: 2px solid #5b3427;
+  margin-bottom: 10.5px;
+}
+
+.email-input {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+.email-input input,
+.email-input button {
+  height: 100%;
+}
+.email-input input {
+  border: 1px solid rgb(210, 210, 210);
+  padding: 8px 15px;
+  width: 65%;
+}
+.email-input button {
+  color: #68676b;
+  border: 2px solid #fbc612;
+  padding: 8px 15px;
+}
+.email-input button:hover {
+  background-color: #ffffff;
+  color: #333;
+  transition: 0.25s;
+  cursor: pointer;
+}
+
+.copyright-wrap a,
+.copyright-wrap p {
+  font-style: italic;
+  font-size: 12px;
+}
+
+.copyright-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 55px;
+}
+.copyright-links ul li {
+  margin: 0 5px;
+}
+
+.trademark {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,22 @@
+{
+  "name": "coffee_maker",
+  "version": "1.0.0",
+  "description": "<!-- 11/20/2023 -->",
+  "main": "index.js",
+  "scripts": {
+    "server": "live-server dist",
+    "compile-sass": "sass dist/scss/styles.scss dist/css/styles.css -w",
+    "build-webpack": "webpack"
+  },
+  "keywords": [],
+  "author": "Pierce Issah",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.69.5"
+  },
+  "dependencies": {
+    "firebase": "^10.6.0",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
