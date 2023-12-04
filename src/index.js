@@ -9,7 +9,12 @@ function initURLListener() {
 }
 
 // Listeners for Index.html
-function initListeners() {}
+function initListeners() {
+  // Hamburger Menu
+  $(".hamburger-menu").on("click", function () {
+    $(this).toggleClass("open");
+  });
+}
 
 $(document).ready(function () {
   initListeners();

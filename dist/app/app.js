@@ -16,7 +16,7 @@
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _model_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./model.js */ \"./src/model.js\");\n// import functions from other files\r\n\r\n// Global Variables\r\n\r\n//\r\nfunction initURLListener() {\r\n  $(window).on(\"hashchange\", _model_js__WEBPACK_IMPORTED_MODULE_0__.changeRoute);\r\n  (0,_model_js__WEBPACK_IMPORTED_MODULE_0__.changeRoute)();\r\n}\r\n\r\n// Listeners for Index.html\r\nfunction initListeners() {}\r\n\r\n$(document).ready(function () {\r\n  initListeners();\r\n  initURLListener();\r\n});\r\n\n\n//# sourceURL=webpack://coffee_maker/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _model_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./model.js */ \"./src/model.js\");\n// import functions from other files\r\n\r\n// Global Variables\r\n\r\n//\r\nfunction initURLListener() {\r\n  $(window).on(\"hashchange\", _model_js__WEBPACK_IMPORTED_MODULE_0__.changeRoute);\r\n  (0,_model_js__WEBPACK_IMPORTED_MODULE_0__.changeRoute)();\r\n}\r\n\r\n// Listeners for Index.html\r\nfunction initListeners() {\r\n  // Hamburger Menu\r\n  $(\".hamburger-menu\").on(\"click\", function () {\r\n    $(this).toggleClass(\"open\");\r\n  });\r\n}\r\n\r\n$(document).ready(function () {\r\n  initListeners();\r\n  initURLListener();\r\n});\r\n\n\n//# sourceURL=webpack://coffee_maker/./src/index.js?");
 
 /***/ }),
 
