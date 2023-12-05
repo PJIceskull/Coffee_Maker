@@ -469,4 +469,58 @@ footer p {
   font-size: 0.875rem;
 }
 
+.products-section {
+  min-height: 500px;
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.product-box {
+  width: 300px;
+  min-height: 500px;
+  margin-top: 15px;
+  margin-bottom: 25px;
+  padding: 15px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  flex-direction: column;
+  box-shadow: 3px 7px 16px 9px rgba(0, 0, 0, 0.25);
+}
+.product-box h1 {
+  font-size: 28px;
+}
+.product-box p {
+  color: #d1150c;
+  font-size: 18px;
+}
+
+.product-image {
+  height: 275px;
+  width: 250px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.product-image img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.buyBTN {
+  text-transform: uppercase;
+  border: 3px solid #fbc612;
+  border-radius: 5px;
+  width: 100%;
+  height: 40px;
+  cursor: pointer;
+}
+.buyBTN:hover {
+  background-color: #fff;
+}
+
 /*# sourceMappingURL=styles.css.map */
