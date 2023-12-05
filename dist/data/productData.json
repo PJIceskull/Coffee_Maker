@@ -1,0 +1,160 @@
+{
+  "Products": [
+    {
+      "productImage": "K-Cafe/K-Cafe-Barista-Bar.png",
+      "productName": "K-Cafe Barista Bar",
+      "productPrice": "16.99"
+    },
+    {
+      "productImage": "K-Cafe/K-Cafe-Coffee-Latte-Cappuccino-Maker.png",
+      "productName": "K-Cafe Coffee Latte Cappuccino Maker",
+      "productPrice": "19.99"
+    },
+    {
+      "productImage": "K-Cafe/K-Cafe-SMART-Coffee-Latte-Cappuccino-Maker.png",
+      "productName": "K-Cafe SMART Coffee Latte Cappuccino Maker",
+      "productPrice": "24.99"
+    },
+    {
+      "productImage": "K-Cafe/K-Cafe-Special-Edition-Coffee-Latte-Cappuccino-Maker.png",
+      "productName": "K-Cafe Special Edition Coffee-Latte Cappuccino-Maker",
+      "productPrice": "27.99"
+    },
+    {
+      "productImage": "K-Classic/K50-Coffee-Maker_5000204441_swatch.png",
+      "productName": "K-Classic Coffee-Maker",
+      "productPrice": "12.99"
+    },
+    {
+      "productImage": "K-Classic/K50-Coffee-Maker_5000345253_swatch.png",
+      "productName": "K-Classic Coffee-Maker",
+      "productPrice": "12.99"
+    },
+    {
+      "productImage": "K-Classic/K50-Coffee-Maker_5000350283_swatch.png",
+      "productName": "K-Classic Coffee-Maker",
+      "productPrice": "12.99"
+    },
+    {
+      "productImage": "K-Compact/K-Compact-Coffee-Maker.png",
+      "productName": "K-Compact Coffee-Maker",
+      "productPrice": "15.99"
+    },
+    {
+      "productImage": "K-Compact/K-Compact-Coffee-Maker-Gray.png",
+      "productName": "K-Compact Coffee-Maker Gray.png",
+      "productPrice": "15.99"
+    },
+    {
+      "productImage": "K-Compact/K-Compact-Coffee-Maker-White.png",
+      "productName": "K-Compact Coffee-Maker White.png",
+      "productPrice": "15.99"
+    },
+    {
+      "productImage": "K-Duo/K-Duo-Plus-Single-Serve-Carafe-Coffee-Maker.png",
+      "productName": "K-Duo-Plus Single-Serve Carafe Coffee-Maker.png",
+      "productPrice": "14.99"
+    },
+    {
+      "productImage": "K-Duo/K-Duo-SE-Single-Serve-Carafe-Coffee-Maker.png",
+      "productName": "K-Duo-SE Single-Serve Carafe Coffee-Maker.png",
+      "productPrice": "14.99"
+    },
+    {
+      "productImage": "K-Duo/K-Duo-Single-Serve-Carafe-Coffee-Maker.png",
+      "productName": "K-Duo Single-Serve Carafe Coffee-Maker",
+      "productPrice": "14.99"
+    },
+    {
+      "productImage": "K-Elite/K-Elite-Single-Serve-Coffee-Maker_5000359831_swatch.png",
+      "productName": "K-Elite Single-Serve Coffee-Maker",
+      "productPrice": "18.99"
+    },
+    {
+      "productImage": "K-Elite/K-Elite-Single-Serve-Coffee-Maker_5000359832_swatch.png",
+      "productName": "K-Elite Single-Serve Coffee-Maker",
+      "productPrice": "18.99"
+    },
+    {
+      "productImage": "K-Elite/K-Elite-Single-Serve-Coffee-Maker_5000359886_swatch.png",
+      "productName": "K-Elite Single-Serve Coffee-Maker",
+      "productPrice": "18.99"
+    },
+    {
+      "productImage": "K-Express/K-Express-Single-Serve-Coffee-Maker.png",
+      "productName": "K-Express Single-Serve Coffee-Maker",
+      "productPrice": "24.00"
+    },
+    {
+      "productImage": "K-Iced/k-iced-single-serve-coffee-maker_5000371871_swatch.png",
+      "productName": "K-Iced Single-Serve Coffee-Maker",
+      "productPrice": "21.00"
+    },
+    {
+      "productImage": "K-Iced/k-iced-single-serve-coffee-maker_5000371871_swatch.png",
+      "productName": "K-Iced Single-Serve Coffee-Maker",
+      "productPrice": "21.00"
+    },
+    {
+      "productImage": "K-Select/K-Select-Coffee-Maker_5000359892_swatch.png",
+      "productName": "K-Select Coffee-Maker",
+      "productPrice": "15.99"
+    },
+    {
+      "productImage": "K-Select/K-Select-Coffee-Maker_5000359828_swatch.png",
+      "productName": "K-Select Coffee-Maker",
+      "productPrice": "15.99"
+    },
+    {
+      "productImage": "K-Select/K-Select-Coffee-Maker_5000359889_swatch.png",
+      "productName": "K-Select Coffee-Maker",
+      "productPrice": "15.99"
+    },
+    {
+      "productImage": "K-Silm/K-Slim-Iced-Single-Serve-Coffee-Maker_5000365009_swatch.png",
+      "productName": "K-Slim Iced Single-Serve Coffee-Maker",
+      "productPrice": "17.99"
+    },
+    {
+      "productImage": "K-Silm/K-Slim-Single-Serve-Coffee-Maker_5000363760_swatch.png",
+      "productName": "K-Slim Single-Serve Coffee-Maker",
+      "productPrice": "15.99"
+    },
+    {
+      "productImage": "K-Mini/K-Mini-Coffee-Maker_5000200237_swatch.png",
+      "productName": "K-Mini Coffee-Maker",
+      "productPrice": "21.99"
+    },
+    {
+      "productImage": "K-Mini/K-Mini-Plus-Coffee-Maker_5000200239_swatch.png",
+      "productName": "K-Mini Plus Coffee-Maker",
+      "productPrice": "24.99"
+    },
+    {
+      "productImage": "K-Supreme/K-Supreme-Plus-Single-Serve-Coffee-Maker_5000368403_swatch.png",
+      "productName": "K-Supreme Plus Single-Serve Coffee-Maker",
+      "productPrice": "34.99"
+    },
+    {
+      "productImage": "K-Supreme/K-Supreme-Plus-SMART-Coffee-Maker_5000361470_swatch.png",
+      "productName": "K-Supreme Plus SMART Coffee Maker",
+      "productPrice": "39.99"
+    },
+    {
+      "productImage": "K-Supreme/K-Supreme-Single-Serve-Coffee-Maker_5000361865_swatch.png",
+      "productName": "K-Supreme Single Serve Coffee Maker",
+      "productPrice": "30.99"
+    },
+    {
+      "productImage": "K-Supreme/K-Supreme-SMART-Coffee-Maker_5000367509_swatch.png",
+      "productName": "K-Supreme SMART Coffee Maker",
+      "productPrice": "36.99"
+    },
+    {
+      "productImage": "K155_Brewing_System/K155_Brewing_System_5000375230_swatch.png",
+      "productName": "K155 Brewing System",
+      "productPrice": "25.99"
+    }
+  ],
+  "Cart": []
+}
