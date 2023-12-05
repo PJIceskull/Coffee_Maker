@@ -1,3 +1,76 @@
 <main id="Products-Page">
   <h1>Coffee Makers</h1>
+  <!-- Header Image -->
+  <picture class="header-IMG">
+    <source
+      media="(min-width: 500px)"
+      srcset="images/header/joy23-clpheader-768.jpg"
+    />
+    <source
+      media="(min-width: 768px)"
+      srcset="images/header/joy23-clpheader-1024.jpg"
+    />
+    <source
+      media="(min-width: 1024px)"
+      srcset="images/header/joy23-clpheader-desktop.jpg"
+    />
+    <img src="images/header/joy23-clpheader-mobile.jpg" alt="Sales-banner" />
+  </picture>
+  <section class="filter-sort-row">
+    <!-- Fitler By -->
+    <div class="filter-group">
+      <select name="Coffee-Categories">
+        <option value="">Categories</option>
+        <option value="Coffee-Specialty">Coffee Specialty Beverages</option>
+        <option value="Single-Serve">Single Serve</option>
+        <option value="Single-Serve-Carafe">Single Serve And Carafe</option>
+        <option value="Single-Serve–Slim-Profile">
+          Single Serve – Slim Profile
+        </option>
+        <option value="Slim-coffee-makers">Slim coffee makers</option>
+      </select>
+      <select name="Features">
+        <option value="">Features</option>
+        <option value="Digital-Clock">Digital Clock</option>
+        <option value="Display-Screen">Display Screen</option>
+        <option value="">Froths Milk</option>
+        <option value="Iced-Setting">Iced Setting</option>
+        <option value="Multi-Position-Water-Reservoir">
+          Multi-Position Water Reservoir
+        </option>
+        <option value="Strength-Control">Strength Control</option>
+        <option value="Temperature-Control">Temperature Control</option>
+      </select>
+      <select name="Brew-Type">
+        <option value="">Brew Type</option>
+        <option value="Bagged">Bagged Coffee</option>
+        <option value="K-Cup">K-Cup</option>
+      </select>
+      <select name="Reservoir">
+        <option value="">Reservoir</option>
+        <option value="60oz+">60 oz or more (7)</option>
+        <option value="Add-Water">Add Water Each Time (2)</option>
+        <option value="52oz">Upto 52 oz (5)</option>
+      </select>
+      <select name="Commerical">
+        <option value="">Commerical</option>
+        <option value="Commerical">Commerical</option>
+      </select>
+      <select name="Color">
+        <option value="">Color</option>
+      </select>
+    </div>
+    <!-- Sort by -->
+    <div class="sort-group">
+      <label>Sort By</label>
+      <select name="Sort-By">
+        <option value="">Popularity (All Time)</option>
+        <option value="">Popularity (This)</option>
+        <option value="">Price (Lowest)</option>
+        <option value="">Price (Highest)</option>
+        <option value="">Name (A - Z)</option>
+        <option value="">Name (Z - A)</option>
+      </select>
+    </div>
+  </section>
 </main>

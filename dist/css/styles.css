@@ -41,6 +41,20 @@ ul {
   justify-content: space-around;
 }
 
+#app {
+  min-height: 800px;
+  max-width: 1280px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 1280px) {
+  #app {
+    max-width: 1280vw;
+  }
+}
 nav {
   min-height: 50px;
   background-color: rgb(236, 233, 228);
@@ -404,6 +418,55 @@ footer p {
   .trademark {
     text-align: center;
   }
+}
+.header-IMG {
+  margin-bottom: 10px;
+}
+.header-IMG img {
+  width: 100%;
+  height: 100%;
+}
+
+.filter-sort-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.filter-sort-row select {
+  padding: 15px;
+  border: 2px solid #68676b;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.filter-sort-row select:hover {
+  border: 2px solid #333;
+}
+.filter-sort-row option {
+  font-size: 14px;
+}
+
+.filter-group select {
+  margin-right: 15px;
+}
+
+.sort-group {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+.sort-group select {
+  border: none;
+  padding: 15px 0;
+  outline: none;
+}
+.sort-group select:hover {
+  border: none;
+}
+.sort-group option {
+  font-size: 0.875rem;
 }
 
 /*# sourceMappingURL=styles.css.map */
