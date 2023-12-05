@@ -31,11 +31,48 @@ const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
 
 // Global Variables
+let productData = []; // Array to hold Json data
+
+// Load Coffee Products
+export function loadProducts() {
+  // $("#Products-Page").html("");
+  $(".products-section").html("");
+  // console.log(productData);
+  $.each(productData.Products, function (index, product) {
+    $(".products-section").append(`<div class="product-box">
+      <div class="product-image">
+        <img
+          src="images/products/${product.productImage}"
+          alt="Coffee Maker"
+          loading="lazy"
+        />
+      </div>
+      <div> 
+        <h1>${product.productName}</h1>
+        <p>Price: <sup>$</sup>${product.productPrice}</p>
+      </div>
+      <button class="buyBTN" id="${index}" >Buy Now</button>
+    </div>`);
+  });
+}
+
+// Get Data from JSON
+function getData() {
+  $.get(`data/productData.json`, function (data) {
+    // Assign Data to Global Variable
+    productData = data;
+    console.log(productData);
+  }).fail(function (error) {
+    console.log("Error: ", error);
+    alert("Error: ", error);
+  });
+}
 
 //
 function initURLListener() {
   $(window).on("hashchange", changeRoute);
   changeRoute();
+  getData();
 }
 
 // Listeners for Index.html
