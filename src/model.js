@@ -9,7 +9,7 @@ export function changeRoute() {
       $("#app").html(data);
     });
   } else {
-    $.get(`pages/cart.html`, function (data) {
+    $.get(`pages/coffee_makers.html`, function (data) {
       console.log("data " + data);
       $("#app").html(data);
     });
