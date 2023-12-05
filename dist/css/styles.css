@@ -341,7 +341,7 @@ footer p {
   color: #68676b;
   border: 2px solid #fbc612;
   padding: 8px 15px;
-  font-size: 1.15vw;
+  font-size: 0.875rem;
 }
 .email-input button:hover {
   background-color: hsl(0, 0%, 100%);
